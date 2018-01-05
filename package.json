@@ -1,14 +1,14 @@
 {
-  "name": "wm-jointswp",
+  "name": "wm-wpf6",
   "version": "4.1.0",
   "description": "A WordPress theme using Foundation 6",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wmexico/wm-jointswp"
+    "url": "https://github.com/wmexico/wm-wpf6"
   },
   "author": "Georgel Rosales / Jeremy Englert",
   "license": "GPL-2.0 AND MIT",
-  "homepage": "https://github.com/wmexico/wm-jointswp",
+  "homepage": "https://github.com/wmexico/wm-wpf6",
   "devDependencies": {
     "babel-preset-es2015": "^6.5.0",
     "browser-sync": "^2.11.0",
