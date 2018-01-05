@@ -317,9 +317,8 @@ a:hover{text-decoration:none}
 ul.l-mb>li{margin-bottom:5px}
 #content, #contenido{min-height:450px}
 
-.mt10{margin-top:10px !important}
-.none{display:none}
 .a100{display:block;width:100%;height:100%;text-indent:-9999px}
+.none{display:none}
 .w100{width:100%}
 .rel{position:relative}
 .abs{position:absolute}
@@ -346,6 +345,11 @@ ul.l-mb>li{margin-bottom:5px}
 .blanco{color:#FFFFFF}
 .negro{color:#000000}
 .rojo{color:red}
+.azul(color:blue)
+.verde{color:green}
+.mt10{margin-top:10px}
+.mt10i{margin-top:10px !important}
+.w100i{width:100% !important}
 
 /******************************************************************
 
