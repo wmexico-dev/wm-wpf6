@@ -272,7 +272,6 @@ W-MEXICO STYLES
 /*!
  *  by Georgel@w-mexico.net
  */
-@charset 'UTF-8';
 label{color:#222}
 a:focus{outline:0}
 a{text-decoration:none;}
@@ -345,7 +344,7 @@ ul.l-mb>li{margin-bottom:5px}
 .blanco{color:#FFFFFF}
 .negro{color:#000000}
 .rojo{color:red}
-.azul(color:blue)
+.azul{color:blue}
 .verde{color:green}
 .mt10{margin-top:10px}
 .mt10i{margin-top:10px !important}
