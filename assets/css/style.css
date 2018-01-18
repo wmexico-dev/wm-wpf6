@@ -299,6 +299,8 @@ a:hover{text-decoration:none}
 	margin:0;
 	padding:1px;
 }
+.forma input.error{margin:0}
+.forma label.error{margin:0 0 1rem}
 .responsive-img img{
 	display:block;
 	max-width:100%;
