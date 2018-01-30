@@ -33,16 +33,20 @@
 		
 	<body <?php body_class(); ?>>
 
-		<div class="off-canvas-wrapper">
-							
-			<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
-			
-			<div class="off-canvas-content" data-off-canvas-content>
-				
-				<header class="header" role="banner">
-						
-					 <!-- This navs will be applied to the topbar, above all content 
-						  To see additional nav styles, visit the /parts directory -->
-					 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-	 	
-				</header> <!-- end .header -->
+<header class="header" role="banner">
+<div class="title-bar" data-responsive-toggle="top-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle="top-menu"></button>
+    <div class="title-bar-title">&nbsp;Menu</div>
+</div>
+
+<div class="top-bar" id="top-menu">
+    <div class="top-bar-left">
+        <ul class="menu">
+            <li class="menu-text menu-home"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+
+    </div>
+</div>
+</header>

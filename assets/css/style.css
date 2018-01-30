@@ -299,8 +299,8 @@ a:hover{text-decoration:none}
 	margin:0;
 	padding:1px;
 }
-.forma input.error{margin:0}
-.forma label.error{margin:0 0 1rem}
+.form input.error, .forma input.error{margin:0}
+.form label.error, .forma label.error{margin:0 0 1rem}
 .responsive-img img{
 	display:block;
 	max-width:100%;
@@ -336,21 +336,37 @@ ul.l-mb>li{margin-bottom:5px}
 .fs30{font-size:30px}
 .bold{font-weight:bold}
 .italic{font-style:italic}
-.espacio{padding-bottom:30px}
-.centro{text-align:center}
+.space, .espacio{padding-bottom:30px}
+.center, .centro{text-align:center}
 .tleft{text-align:left}
 .tright{text-align:right}
 .tjust{text-align:justify}
 .error{color:red}
-.gris{color:#999999}
-.blanco{color:#FFFFFF}
-.negro{color:#000000}
-.rojo{color:red}
-.azul{color:blue}
-.verde{color:green}
+.grey, .gris{color:#999999}
+.white, .blanco{color:#FFFFFF}
+.black, .negro{color:#000000}
+.red, .rojo{color:red}
+.blue, .azul{color:blue}
+.green, .verde{color:green}
 .mt10{margin-top:10px}
 .mt10i{margin-top:10px !important}
 .w100i{width:100% !important}
+
+.no-js .top-bar, .no-js .title-bar{display: none}
+.header .top-bar, .top-bar ul{
+	background-color: #333;
+}
+.header .top-bar .menu .menu-text{color:#ffffff;}
+.header .top-bar .menu .menu-home{
+	font-size:18px;
+	padding: 0 0.8rem;
+}
+.footer .copyright{
+	font-size:11px;
+	color:#999999;
+	text-align:center;
+}
+
 
 /******************************************************************
 

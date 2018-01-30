@@ -30,7 +30,8 @@ function site_scripts() {
     wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array(), null, 'all' );
 
     // Register main stylesheet
-    wp_enqueue_style( 'site-style', get_template_directory_uri() . '/assets/css/style.css', array(), '', 'all' );
+    $t= filemtime(get_template_directory() . '/assets/css/style.css');
+    wp_enqueue_style( 'site-style', get_template_directory_uri() . '/assets/css/style.css', array(), $t, 'all' );
 
     // Comment reply script for threaded comments
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
